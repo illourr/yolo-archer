@@ -7,4 +7,11 @@ angular.module('LearnApp')
       'AngularJS',
       'Karma'
     ];
+  })
+  .controller('TodoCtrl', function ($scope) {
+    $scope.testData = [
+      'One',
+      'Two',
+      'Three'
+    ];
   });

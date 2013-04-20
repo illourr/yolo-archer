@@ -1,0 +1,15 @@
+{"ts":1366426972791,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"'use strict';\n\nangular.module('LearnApp', [])\n  .config(function ($routeProvider) {\n    $routeProvider\n      .when('/', {\n        templateUrl: 'views/main.html',\n        controller: 'MainCtrl'\n      })\n      .otherwise({\n        redirectTo: '/'\n      });\n  });\n"]],"start1":0,"start2":0,"length1":0,"length2":261}]],"length":261}
+{"contributors":[],"silentsave":true,"ts":1366427026897,"patch":[[{"diffs":[[0,"     })\n"],[1,"      \n"],[0,"      .o"]],"start1":194,"start2":194,"length1":16,"length2":23}]],"length":268,"saved":false}
+{"ts":1366427029195,"patch":[[{"diffs":[[0,")\n      "],[1,"."],[0,"\n      ."]],"start1":200,"start2":200,"length1":16,"length2":17}]],"length":269,"saved":false}
+{"ts":1366427031252,"patch":[[{"diffs":[[0,"\n      ."],[1,"when(\n        )"],[0,"\n      ."]],"start1":201,"start2":201,"length1":16,"length2":31}]],"length":284,"saved":false}
+{"ts":1366427034902,"patch":[[{"diffs":[[0,"  .when("],[-1,"\n        "],[1,"'tod'"],[0,")\n      "]],"start1":206,"start2":206,"length1":25,"length2":21}]],"length":280,"saved":false}
+{"ts":1366427037228,"patch":[[{"diffs":[[0," .when('"],[-1,"t"],[1,"/to"],[0,"od')\n   "]],"start1":207,"start2":207,"length1":17,"length2":19}]],"length":282,"saved":false}
+{"ts":1366427041398,"patch":[[{"diffs":[[0,"hen('/to"],[-1,"o"],[0,"d"],[1,"o"],[0,"')\n     "]],"start1":210,"start2":210,"length1":18,"length2":18}]],"length":282,"saved":false}
+{"ts":1366427044772,"patch":[[{"diffs":[[0,"('/todo'"],[1,", {}"],[0,")\n      "]],"start1":213,"start2":213,"length1":16,"length2":20}]],"length":286,"saved":false}
+{"ts":1366427046934,"patch":[[{"diffs":[[0,"todo', {"],[1,"\n        \n      "],[0,"})\n     "]],"start1":216,"start2":216,"length1":16,"length2":32}]],"length":302,"saved":false}
+{"ts":1366427062161,"patch":[[{"diffs":[[0,"        "],[1,"template"],[0,"\n      }"]],"start1":225,"start2":225,"length1":16,"length2":24}]],"length":310,"saved":false}
+{"ts":1366427067182,"patch":[[{"diffs":[[0,"template"],[1,"Url: 'views'"],[0,"\n      }"]],"start1":233,"start2":233,"length1":16,"length2":28}]],"length":322,"saved":false}
+{"ts":1366427070324,"patch":[[{"diffs":[[0,": 'views"],[1,"/todo.html"],[0,"'\n      "]],"start1":244,"start2":244,"length1":16,"length2":26}]],"length":332,"saved":false}
+{"ts":1366427071270,"patch":[[{"diffs":[[0,"do.html'"],[1,",\n        "],[0,"\n      }"]],"start1":255,"start2":255,"length1":16,"length2":26}]],"length":342,"saved":false}
+{"ts":1366427074136,"patch":[[{"diffs":[[0,"        "],[1,"controller: 'T'"],[0,"\n      }"]],"start1":265,"start2":265,"length1":16,"length2":31}]],"length":357,"saved":false}
+{"ts":1366427076111,"patch":[[{"diffs":[[0,"ller: 'T"],[1,"odoCtrl"],[0,"'\n      "]],"start1":279,"start2":279,"length1":16,"length2":23}]],"length":364,"saved":false}

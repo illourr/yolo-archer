@@ -45,9 +45,9 @@ module.exports = function (grunt) {
     },
     connect: {
       options: {
-        port: 9000,
+        port: process.env.PORT,
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost'
+        hostname: process.env.IP
       },
       livereload: {
         options: {
@@ -265,8 +265,8 @@ module.exports = function (grunt) {
     'clean:server',
     'coffee:dist',
     'compass:server',
-    'livereload-start',
-    'connect:livereload',
+    //'livereload-start',
+    //'connect:livereload',
     'open',
     'watch'
   ]);
@@ -299,4 +299,9 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', ['build']);
+  
+  var sys = require('sys')
+  var exec = require('child_process').exec;
+  exec('node app.js');
 };
+

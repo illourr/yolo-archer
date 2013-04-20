@@ -19,7 +19,18 @@ html.no-js
       script(src='components/es5-shim/es5-shim.js')
       script(src='components/json3/lib/json3.min.js')
     //Add your site or application content here
-    .container(ng-view='ng-view')
+
+    .hero-unit
+      h1 'Allo, 'Allo!
+      p You now have
+      ul
+        li(ng-repeat='thing in awesomeThings') {{thing}}
+      p installed!
+      h3 Enjoy coding! - Yeomane
+      a(href="#/todo")
+        | Todo Link
+      .container(ng-view='ng-view')
+
     script(src='components/angular/angular.js')
     script(src='components/angular-resource/angular-resource.js')
     script(src='components/angular-cookies/angular-cookies.js')
